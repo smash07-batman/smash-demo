@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+  <ul class="navlist">
+    <li><a href="#">Home</a></li>
+    <li><a href="#Projects">Project</a></li>
+    <li><a href="#About">About</a></li>
+    <li><a href="#Contact">Contact</a></li>
+    <li><a href="#Skills">Skills</a></li>
+</ul>
+
+</header>
+<body>
+    <div class="portfolio-container">
+        
+        
+
+        <div class="left-container">
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+                
+            </div>
+            <img src="https://raw.githubusercontent.com/procodrr/portfolio/03923dca78d059bfdf8a3fabd656deef22aa1d3a/part-1-starter-files/assets/images/name-logo-favicon.svg" alt="gg">
+            <div class="content">
+                <P class="intro">Hi I am <span>Anubhav Pandey</span> </P> 
+                <h1>Full Stack Developer </h1>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum magni optio eaque corporis delectus ut amet, quis vero excepturi laboriosam quia! Rerum, ea earum. Placeat quasi ab deleniti aperiam asperiores!</p>
+                <button>Hire Me</button>
+             </div>
+        </div>
+        
+            
+            
+        </div>
+        
+    </div>
+        </div>
+        <div class="self">
+          <section id="About">
+            <div class="About"><h1>ABOUT</h1>
+                <p>My name is <span>Anubhav Pandey</span>, and I am passionate fullstack web developer. I have always fascinated by the intersection of design and technology, and I am thrilled to be able to bring my creative ideas to life through coding.</p>
+                <button class="Resume"> Resume</button>
+                <div class="image">
+                  <img src="WhatsApp Image 2024-12-12 at 01.47.33_ff27a93f.jpg" alt="SmasH">
+                 </div>
+            </div>
+            
+        </section>
+      
+        </div>
+
+
+</body>
+<script>
+     document.addEventListener ("scroll" , () => {
+      const header = document.querySelector ("header");
+      if ( window.scrollY > 0) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+     });
+</script>
+</html>
